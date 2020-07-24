@@ -1,0 +1,18 @@
+{
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "symfony/twig-bridge": "*",
+        "symfony/asset" : "*"
+    },
+   
+    "minimum-stability": "dev",
+    "config":{
+        "bin/dir": "bin/"
+    },
+    
+    "autoload":{
+        "psr-0": {"ALEX": "src/"}
+    }
+}
+
